@@ -1,21 +1,21 @@
 body {
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 600px; /* So this acts like a wall. It will not get any wider even in bigger monitor */
+  margin: 0 auto; /* This will center the wall in the middle of the page */
 }
 
 .one {
   background: pink;
-  border: 3px solid blue;
+  border: 3px solid blue; /* This will add a border around the box */
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 32px; /* This will add space inside the box, between the content and the border */
+  margin: 12px; /* This will add space outside the box, between the box and other elements */
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px; /* This will add space below the box, between the box and other elements */
 }
 
 .three {
@@ -23,6 +23,6 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 32px;
+  margin-left: 320px;
 }
