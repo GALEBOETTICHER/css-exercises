@@ -46,3 +46,10 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* changes here */
+
+.header {
+  display: flex;
+}
+
