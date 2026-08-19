@@ -48,8 +48,31 @@ ul {
 }
 
 /* changes here */
-
 .header {
+  border: 8px solid red;
   display: flex;
+  justify-content: space-between;
+  padding: 8px;
 }
 
+ul {
+  border: 8px solid springgreen;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left-links, .right-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.left-links {
+  border: 8px solid saddlebrown;
+}
+
+.right-links {
+  border: 8px solid teal;
+}
