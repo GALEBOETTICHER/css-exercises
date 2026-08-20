@@ -67,3 +67,32 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* changes */
+.modal {
+  border: 5px solid black;
+}
+
+.icon {
+  border: 5px solid black;
+}
+
+.header {
+  border: 5px solid black;
+}
+
+.close-button {
+  border: 5px solid black;
+}
+
+.text {
+  border: 5px solid black;
+}
+
+button.continue {
+  border: 5px solid black;
+}
+
+button.cancel {
+  border: 5px solid black;
+}
