@@ -69,30 +69,13 @@ button.cancel {
 }
 
 /* changes */
-.modal {
-  border: 5px solid black;
-}
-
-.icon {
-  border: 5px solid black;
-}
-
-.header {
-  border: 5px solid black;
-}
-
-.close-button {
-  border: 5px solid black;
-}
-
-.text {
-  border: 5px solid black;
-}
-
-button.continue {
-  border: 5px solid black;
-}
-
+.modal,
+.icon,
+.header,
+.close-button,
+.text,
+button.continue,
 button.cancel {
   border: 5px solid black;
 }
+
