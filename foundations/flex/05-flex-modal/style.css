@@ -69,13 +69,50 @@ button.cancel {
 }
 
 /* changes */
-.modal,
+/*  
 .icon,
 .header,
 .close-button,
 .text,
 button.continue,
-button.cancel {
+button.cancel, */.box  {
   border: 5px solid black;
 }
 
+.modal {
+  /* border: 5px solid black; */
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px;
+  justify-content: flex-start;
+  }
+
+.icon-container {
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+}
+
+.icon {
+  flex-shrink: 0;
+  margin-right: 10px;
+  }
+
+.bottom-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  font-size: larger;
+  font-weight: bold;
+  /* justify-content: space-between; */
+}
+
+.close-button,
+.text {
+  margin-bottom: 10px;
+}
+
+.box {
+  display: flex;
+}
