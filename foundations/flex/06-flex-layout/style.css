@@ -63,6 +63,7 @@ a {
   align-items: center;
   flex-direction: column;
   gap: 16px;
+  /* flex: 1; */
 }
 
 button {
