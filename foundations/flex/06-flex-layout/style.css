@@ -29,7 +29,34 @@ input {
 
 .left-links,
 .right-links {
+  /* border: 5px solid green; */
   list-style-type: none;
+  display: flex;
   margin: 0;
   padding: 0;
+  gap: 16px;
+  justify-content: flex-start;
 }
+
+body {
+  /* border: 5px solid black; */
+}
+
+.header,
+.footer {
+  /* border: 5px solid red; */
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background-color: #eeee;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
