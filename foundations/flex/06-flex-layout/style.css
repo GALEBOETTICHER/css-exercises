@@ -38,9 +38,6 @@ input {
   justify-content: flex-start;
 }
 
-body {
-  /* border: 5px solid black; */
-}
 
 .header,
 .footer {
@@ -58,5 +55,23 @@ a {
   text-decoration: none;
 }
 
+/* content alignment */
+.content {
+  /* border: 5px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+}
 
+button {
+  padding: 8px 16px;
+}
+
+body {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
 
